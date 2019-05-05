@@ -200,8 +200,8 @@ Monitor (Ctrl+Shift+M).  You should shortly see ESP restarting every couple
 of seconds and ``Soft WDT reset`` message together with stack trace showing
 up on each restart.  Click the Autoscroll check-box on Serial Monitor to
 stop the messages scrolling up.  Select and copy the stack trace, including
-the ``last failed alloc call: ...`` line, go to the *Tools* and open the
-*ESP Exception Decoder*.
+the ``>>>stack>>>`` and ``<<<stack<<<`` lines and the ``last failed alloc
+call: ...`` line, go to the *Tools* and open the *ESP Exception Decoder*.
 
 .. figure:: pictures/a02-decode-stack-tace-1-2.png
    :alt: Decode the stack trace, steps 1 and 2
